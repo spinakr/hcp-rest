@@ -11,5 +11,6 @@ def put_data():
     f = open('data', 'a')
     f.write(data + "\n")
     f.close()
+    print entity
 
 run(host='localhost', port=8080)
